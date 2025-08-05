@@ -1,0 +1,4 @@
+Command: make -j 10 all
+/home/pfasantos/esp/estoque-http-teste/main/main.c:23:13: warning: 'http_task' defined but not used [-Wunused-function]
+   23 | static void http_task(void *pvParameters)
+      |             ^~~~~~~~~

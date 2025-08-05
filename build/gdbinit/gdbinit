@@ -1,0 +1,2 @@
+source /home/pfasantos/esp/estoque-http-teste/build/gdbinit/symbols
+source /home/pfasantos/esp/estoque-http-teste/build/gdbinit/connect

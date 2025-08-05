@@ -1,0 +1,9 @@
+Command: make -j 10 flash
+/home/pfasantos/esp/estoque-http-teste/main/main.c: In function 'http_get_request':
+/home/pfasantos/esp/estoque-http-teste/main/main.c:68:10: error: 'esp_http_client_config_t' has no member named 'insecure'
+   68 |         .insecure = true           // Ignora validação TLS
+      |          ^~~~~~~~
+make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj] Error 1
+make[2]: *** [CMakeFiles/Makefile2:7161: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:3133: CMakeFiles/flash.dir/rule] Error 2
+make: *** [Makefile:286: flash] Error 2
