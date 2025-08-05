@@ -1,0 +1,33 @@
+# Build artifacts
+build/
+.vscode/
+.DS_Store
+
+# ESP-IDF specific
+managed_components/
+*.elf
+*.bin
+*.map
+*.lst
+*.obj
+*.d
+*.s
+*.o
+*.su
+*.bak
+*.swp
+*.swo
+
+# NVS partition
+nvs_flash.bin
+
+# Python
+*.pyc
+__pycache__/
+venv/
+
+# Logs
+*.log
+
+# Bubble.io files (if any are generated in project dir)
+*.bubble
